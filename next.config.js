@@ -8,6 +8,7 @@ const nextConfig = withStoreConfig({
   features: store.features,
   reactStrictMode: true,
   images: {
+    domains: ['http://44.203.95.169'],
     remotePatterns: [
       {
         protocol: "http",
